@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da forca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <!--logo-->
+
+    <img src="data:image/png;base64,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" class="logo"> 
+
+    <!--Botão 1-->
+
+    <div id="div-desaparece" class="botoes-home">
+      <a href="#forca"><input class="btn-iniciar" type="submit" value="Iniciar Jogo" id="iniciar-jogo"  >
+      </a>
+      <button class="btn-palavra" id="nova-palavra" onclick="mostrarTelaAdicionarPalavra()">Adicionar Palavra</button> 
+      <img src="https://i.pinimg.com/originals/10/27/f8/1027f80aeabcbb74a2e698be71829e9e.gif" class="morcegato">
+    </div>
+
+    <!-- Botão 2-->
+     <div id= "adicionar-palavra" class="palavra-nova">
+      <input class="text-input" type="text" id="input-nova-palavra"  maxlength="8" placeholder="Escreva uma palavra">
+      <div class="form-group">
+        <img src="images/!.png" class="img-alerta">
+        <label for="input-texto"> Máx. 8 caracteres</label>
+      </div>
+
+      <!--Botão 3-->
+      <div class="botoes-div">
+        <input class="btn-azul" type="submit" value="Salvar e começar" id="btn-salvar">
+        <input class="btn-branco" type="submit" value="Cancelar" id="btn-cancelar">
+      </div> 
+    </div>
+
+    <!--Canvas da forca-->
+    <div id="div-aparece-forca" class="canvas">
+      <canvas id="forca" height="860px" width="1200"></canvas>
+      <div class="sublinhado">
+
+      </div>
+
+      <!--Botões Canvas da forca-->
+      <div class="botoes-div-canvas">
+        <input class="btn-azul" type="submit" value="Novo Jogo" id="btn-novo-jogo">
+        <input class="btn-branco" type="submit" value="Sair" id="btn-sair">
+      </div>
+    </div>
+    <script type="text/javascript" src="forca.js"></script>
+     <script type="text/javascript" src="canvas.js"></script> 
+  </body>
+</html>
